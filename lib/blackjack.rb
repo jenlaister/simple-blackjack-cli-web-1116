@@ -80,16 +80,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-# def runner
-#   welcome
-#   current_card_total = initial_round #card_total
-#   until current_card_total > 21
-#   current_card_total += hit?(current_card_total)
-#   current_card_total = card_total
-#   display_card_total(card_total)
-#   end
-#   end_game(card_total)
-# end
+
 def runner
 welcome
 current_card_total = initial_round
@@ -99,21 +90,7 @@ until current_card_total > 21
 end
 end_game(current_card_total)
 end
-# def runner
-#   welcome
-#   initial_round
-#   until sum > 21
-#     hit?(card_total)
-#     card_total = current_card_total
-#     display_card_total(card_total)
-#   end
-#   end_game(card_total)
-# end
 
-# yup, you have a few things missing but that is the order,
-# play around with setting card_total equal to something, and think about how to make the return
-# number from hit? get captured and added to the current card_total
-# that way the until statement doesnt loop forever
 
 # code runner here
 # Welcome the user
